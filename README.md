@@ -31,19 +31,45 @@ lib/
 
 ---
 
+
+## 📅 Day 2 – Nested List Inside List (Product API)
+
+**Goal:**  
+Fetch product data containing nested structures like dimensions, reviews, and images.
+
+### 🔗 API Used
+[https://dummyjson.com/products/category/smartphones](https://dummyjson.com/products/category/smartphones)
+
+### ✅ Features Implemented So Far
+- Created `Product` model with essential fields
+- Built `ProductService` to fetch product data
+- Developed `ProductViewmodel` for managing state
+- Displayed products in a responsive `GridView` showing image and title only
+
+### 🧩 Upcoming Enhancements (Day 3+)
+- Add product details like price, rating, and reviews
+- Navigate to Product Detail screen on tap
+- Show nested reviews in detail screen
+- Use tabs or collapsible sections for nested content
+
+---
+
+
 ## 🔧 Tech Stack
 - Flutter
 - Dio for API calls
 - Provider for state management
+- cached_network_image for image caching
 - MVVM architecture
 
 ---
 
-## 🚀 Coming Next
-- Day 2 – Nested List Inside List
-- Day 3 – GridView Display from API
-- Day 4 – Deeply Nested JSON
-- Day 5 – Dynamic JSON with Unknown Structure
-- Day 6 – Pagination
-- Day 7 – Interview Simulation
+## 🚀 Coming Up
+- ✅ Day 1 – Basic API with List
+- ✅ Day 2 – Nested List Inside List
+- 🔜 Day 3 – GridView Display from API
+- 🔜 Day 4 – Deeply Nested JSON
+- 🔜 Day 5 – Dynamic JSON with Unknown Structure
+- 🔜 Day 6 – Pagination
+- 🔜 Day 7 – Interview Simulation
 
